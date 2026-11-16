@@ -22,15 +22,15 @@
 * **Detalhes Visuais da Cena:** **Marcos** está parado imóvel, de costas para a câmera, de frente para uma parede maciça de tijolos antigos onde antes havia uma porta de acesso — ou seja, encarando um beco sem saída absoluto. Os óculos de grau estão tortos no rosto e a camisa xadrez está rasgada no ombro.
 * **Diálogo Detalhado:**
   * **Lucas (com a voz embargada, gritando em tom baixo e tenso):**
-    > "Marcos? Cara, vira aqui agora! Chega dessa brincadeira, a bateria do celular morreu, vamos vazar daqui!"
-  * **Marcos (começa a virar lentamente a cabeça em um ângulo impossível e antinatural de 180 graus, com os olhos completamente descoloridos e leitosos, sem pupilas):**
+    > "Marcos? Cara, vira aqui agora! Chega dessa brincadeira, a bateria do celular tá morrendo, vamos vazar daqui!"
+  * **Marcos (começa a virar lentamente a cabeça em um ângulo impossível e antinatural de 180 graus, com os olhos completamente descoloridos e leitosos, sem pupilas, e um sorriso vazio e macabro congelado no rosto):**
     > "Eles não deixam a gente subir... Quem desce para o subsolo, vira parte da fundação para sempre."
 
 ---
 
 ### [00:35 - 00:50] A FUGA INTERROMPIDA
 * **Direção de Câmera:** A câmera balança de forma caótica e violenta, simulando desespero e corrida desgovernada. Lucas vira o corpo bruscamente, puxa Clara pelo braço e dispara de volta em direção à escadaria principal de saída do hospital.
-* **Detalhes Visuais da Cena:** Ao chegarem no patamar da escada, antes que possam tocar na maçaneta, a pesada porta de ferro bate sozinha com um estrondo ensurdecedor e se lacra instantaneamente com grossas correntes invisíveis que brotam das paredes.
+* **Detalhes Visuais da Cena:** Ao chegarem no patamar da escada, antes que possam tocar na maçaneta, a pesada porta de ferro bate sozinha com um estrondo ensurdecedor e se lacra instantaneamente com grossas correntes de ferro enferrujadas que brotam das paredes e se enrolam na porta, acompanhadas de um tilintar metálico seco.
 * **Atuação e Diálogo:**
   * **Lucas (lançando-se contra a porta, socando o metal com desespero total, a voz rasgando a garganta):**
     > "Abre! Abre essa merda! Socorro! Alguém abre!"
@@ -41,8 +41,8 @@
 
 ### [00:50 - 01:00] O DESFECHO FRIO (PLOT TWIST FINAL)
 * **Direção de Câmera:** Com um impacto violento, a câmera escorrega das mãos de Lucas e cai no chão de concreto, ficando estática e virada para cima, gravando o teto mofado e úmido.
-* **Ação Visual:** A luz da lanterna do celular pisca duas vezes e apaga de vez, deixando apenas o brilho residual e azulado da tela do aparelho no ambiente escuro. Passos pesados e arrastados começam a ecoar no silêncio absoluto. Uma mão fria, pálida e com dedos longos entra subitamente no enquadramento e pega o celular do chão.
-* **O Enquadramento Final:** A câmera é virada e erguida. Vemos o rosto de Lucas muito próximo à lente (iluminado pela luz frontal da tela), mas com os **olhos completamente brancos e leitosos**, ostentando exatamente o mesmo sorriso vazio e macabro que Marcos exibia minutos antes.
+* **Ação Visual:** A luz da lanterna do celular pisca duas vezes e apaga de vez, deixando apenas o brilho residual e azulado da tela do aparelho no ambiente escuro. Passos pesados e arrastados começam a ecoar no silêncio absoluto. Uma mão fria, pálida e com dedos longos — a de **Marcos**, já possuído (pele acinzentada, unhas escurecidas) — entra subitamente no enquadramento e pega o celular do chão.
+* **O Enquadramento Final:** A câmera é virada e erguida por Marcos. Vemos o rosto de Lucas muito próximo à lente (iluminado pela luz frontal da tela), mas com os **olhos completamente brancos e leitosos**, ostentando exatamente o mesmo sorriso vazio e macabro que Marcos exibia minutos antes. Ao fundo, desfocada na escuridão, a silhueta de **Clara** está em pé, imóvel, com a cabeça levemente inclinada, os olhos também leitosos e o mesmo sorriso.
 * **Design de Som (SFX):** Um sussurro grave, calmo e sobreposto por várias vozes metálicas ecoa direto no microfone do aparelho:
   > "Obrigado por registrarem a nossa história... A porta da sua casa agora está aberta."
 * **Finalização:** Corte abrupto e imediato para o preto total (sem créditos).

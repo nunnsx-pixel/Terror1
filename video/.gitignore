@@ -1,0 +1,5 @@
+venv/
+build/
+frames/
+tts/
+__pycache__/

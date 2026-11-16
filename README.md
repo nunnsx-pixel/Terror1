@@ -24,3 +24,5 @@ Roteiro imersivo de terror em formato **POV (Primeira Pessoa)**, dividido em 2 p
 * `CHARACTERS.md`: Especificações físicas e consistência dos 3 personagens.
 * `PART_1_SCRIPT.md`: Roteiro detalhado da primeira parte (A Situação).
 * `PART_2_SCRIPT.md`: Roteiro detalhado da segunda parte (O Desfecho).
+* `video/`: Pipeline que gera os vídeos (render procedural + vozes + trilha). Veja `video/README.md`.
+* `output/A_Ultima_Live_Parte1.mp4` e `output/A_Ultima_Live_Parte2.mp4`: vídeos verticais 1080x1920, 60 s cada. O corte completo de 2 min sai de `video/mux.sh` (concatena as duas partes).
