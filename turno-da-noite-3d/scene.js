@@ -293,16 +293,18 @@ const COL = [[36.0, -1.0, -4.8], [36.4, -1.0, -4.8], [40.6, -1.6, -20.5]];
 
 // ---------- legendas ----------
 const LINES = [
-  [1.0, 6.0, "TURNO DA NOITE. <span class=k>2H</span> DA MANHÃ."],
-  [7.0, 11.5, "FALTA POUCO PRA <span class=k>ACABAR</span>..."],
-  [13.5, 18.0, "AS LUZES <span class=k>APAGARAM</span>."],
-  [19.0, 24.5, "AQUELA <span class=k>LUZ</span> NÃO É NORMAL."],
-  [26.0, 31.0, "O GERENTE <span class=k>TRANCOU</span> A PORTA."],
-  [32.0, 39.5, "NÃO OLHEM PRA <span class=k>RUA</span>!"],
-  [41.0, 46.0, "O <span class=k>ALARME</span> DISPAROU SOZINHO."],
-  [47.0, 52.5, "UMA FOTO. DE <span class=k>DENTRO</span> DA LOJA."],
-  [53.0, 57.5, "“<span class=k>IGNORA</span>. FICA QUIETO.”"],
-  [59.0, 64.0, "E <span class=k>AGORA</span>?"],
+  [1.0, 5.2, "DUAS DA <span class=k>MANHÃ</span>. MERCADO VAZIO."],
+  [6.5, 9.4, "“FALTA POUCO PRA <span class=k>ACABAR</span>.”"],
+  [13.9, 17.5, "AS LUZES <span class=k>APAGARAM</span>."],
+  [19.0, 23.6, "AQUELA <span class=k>LUZ</span> NÃO É NORMAL."],
+  [23.9, 25.9, "“VOCÊ TÁ <span class=k>VENDO</span> ISSO?”"],
+  [26.2, 28.6, "O GERENTE <span class=k>TRANCOU</span> A PORTA."],
+  [31.3, 35.5, "“NÃO OLHEM PRA <span class=k>RUA</span>!”"],
+  [41.0, 44.7, "O <span class=k>ALARME</span> DISPAROU SOZINHO."],
+  [46.8, 51.6, "UMA FOTO. DE <span class=k>DENTRO</span> DA LOJA."],
+  [51.7, 53.9, "“ISSO É AQUI <span class=k>DENTRO</span>...”"],
+  [54.0, 57.5, "“<span class=k>IGNORA</span>. FICA QUIETO.”"],
+  [59.0, 62.0, "E <span class=k>AGORA</span>?"],
 ];
 const subEl = document.getElementById('sub'), endEl = document.getElementById('end'), fadeEl = document.getElementById('fade'), clkEl = document.getElementById('clk'), recEl = document.getElementById('rec');
 const cA = document.getElementById('cA'), cB = document.getElementById('cB');
@@ -357,7 +359,7 @@ function animateChars(t) {
     c.arms[0].rotation.x = -1.2 + Math.sin(t * 2.4) * 0.25; c.arms[1].rotation.x = 0.1;
     c.legs.forEach(l => l.rotation.x = 0);
     c.head.rotation.y = 0.3 * Math.sin(t * 0.9);
-    setMood(colleague, 'calm', (t > 7 && t < 11.5) ? Math.abs(Math.sin(t * 10)) * 0.2 : 0);
+    setMood(colleague, 'calm', (t > 6.5 && t < 9.4) ? Math.abs(Math.sin(t * 10)) * 0.2 : 0);
   } else if (t < 36.0) { // paralisado olhando a rua
     colleague.position.set(-1.0, 0, -4.8); colleague.rotation.y = Math.PI;
     c.arms.forEach(a => a.rotation.x = 0); c.legs.forEach(l => l.rotation.x = 0); c.head.rotation.y = 0;
@@ -379,7 +381,7 @@ function animateChars(t) {
   if (t >= 40.6 && t < 58.5) {
     manager.position.set(-3.3, -0.3, -26.3); manager.rotation.y = Math.PI * 0.45;
     u.legs.forEach(l => l.rotation.x = -1.0); u.arms[0].rotation.x = -0.4; u.arms[1].rotation.x = -1.5; // dedo nos lábios
-    setMood(manager, 'tense', (t >= 53 && t < 57.5) ? Math.abs(Math.sin(t * 9)) * 0.35 : 0);
+    setMood(manager, 'tense', (t >= 54 && t < 57.5) ? Math.abs(Math.sin(t * 9)) * 0.35 : 0);
     manager.visible = true;
   }
   if (t >= 58.5) manager.visible = false;
