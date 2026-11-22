@@ -1,0 +1,37 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;background:#000;overflow:hidden}
+  #stage{position:relative;width:720px;height:1280px;overflow:hidden;font-family:"DejaVu Sans",Arial,sans-serif;font-weight:800}
+  canvas{position:absolute;inset:0;width:720px;height:1280px}
+  #vig{position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(0,0,0,0) 45%,rgba(0,0,0,.7) 100%)}
+  #fade{position:absolute;inset:0;background:#000;opacity:0}
+  #hud{position:absolute;top:28px;left:30px;right:30px;display:flex;justify-content:space-between;color:#fff;font-size:26px;text-shadow:0 0 4px #000}
+  #rec b{color:#e22}
+  #sub{position:absolute;left:30px;right:30px;top:930px;text-align:center;color:#fff;font-size:50px;line-height:1.15;
+       -webkit-text-stroke:9px #000;paint-order:stroke fill;text-transform:uppercase}
+  #sub .k{color:#ffd21f}
+  #end{position:absolute;inset:0;background:rgba(8,6,12,.88);display:none}
+  #end h1{margin:0;position:absolute;top:150px;width:100%;text-align:center;color:#fff;font-size:72px;line-height:1}
+  #end h1 span{display:block;color:#ffc61e;font-size:120px;margin-top:8px}
+  .card{position:absolute;left:50px;right:50px;height:310px;border:10px solid #0c0a10;border-radius:22px;color:#fff;font-size:42px;text-align:center;display:flex;align-items:center;justify-content:center;box-sizing:border-box;padding:0 40px 0 150px}
+  .card i{position:absolute;left:36px;top:50%;margin-top:-52px;width:104px;height:104px;border-radius:50%;background:#fff;color:#0c0a10;font-style:normal;font-size:70px;line-height:104px;border:8px solid #0c0a10;box-sizing:border-box;line-height:88px}
+  #cA{top:480px;background:#d83a3a} #cB{top:830px;background:#2f6fe0}
+  #cta{position:absolute;bottom:60px;width:100%;text-align:center;color:#ffc61e;font-size:38px}
+</style></head>
+<body><div id="stage">
+  <canvas id="c" width="720" height="1280"></canvas>
+  <div id="vig"></div>
+  <div id="hud"><span id="rec"><b>●</b> REC</span><span id="clk">02:03 AM</span></div>
+  <div id="sub"></div>
+  <div id="end">
+    <h1>O QUE VOCÊ<span>FARIA?</span></h1>
+    <div class="card" id="cA"><i>A</i>Ir ver o que disparou na frente</div>
+    <div class="card" id="cB"><i>B</i>Continuar escondido nos fundos</div>
+    <div id="cta">COMENTA A / B</div>
+  </div>
+  <div id="fade"></div>
+</div>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js"}}</script>
+<script type="module" src="./scene.js"></script>
+</body></html>
